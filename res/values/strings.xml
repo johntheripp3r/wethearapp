@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">+</string>
+    <string name="hint_city_name">Enter a city name</string>
+    <string name="go">Go</string>
+    <string name="title_activity_city">CityActivity</string>
+    <string name="wind">Wind :</string>
+    <string name="icon">Icon</string>
+    <string name="todays_weather">Today\'s Weather</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="test">test</string>
+
+</resources>

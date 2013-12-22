@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_alignBottom="@+id/wind_static"
+        android:layout_toRightOf="@+id/wind_static"
+        android:text="@string/test" />
+
+    <TextView
+        android:id="@+id/current_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weather_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/test"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sub_desc"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/weather_icon"
+        android:text="@string/test"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/main_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/city_name"
+        android:layout_alignTop="@+id/current_temp"
+        android:text="@string/test" />
+
+    <TextView
+        android:id="@+id/sub_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/main_desc"
+        android:layout_alignBottom="@+id/main_desc"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/main_desc"
+        android:text="@string/test" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/city_name"
+        android:layout_alignBottom="@+id/city_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="@string/test"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/wind_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/main_desc"
+        android:layout_below="@+id/main_desc"
+        android:text="@string/wind" />
+
+</RelativeLayout>
