@@ -78,7 +78,7 @@ public class WeatherActivity extends RoboActivity
 			this.mProgressDialog = new ProgressDialog(this);
 		this.mProgressDialog.setIndeterminate(true);
 		this.mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-		this.mProgressDialog.setMessage("Doing important stuff.");
+		this.mProgressDialog.setMessage("Most meaningful message ever...");
 		
 		this.mDictionary = new BindDictionary<City>();
 		Utility.bindDictionary(this, this.mDictionary);
